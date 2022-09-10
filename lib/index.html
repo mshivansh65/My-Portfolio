@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component Library</title>
+    <!-- <style href="/styles.css" rel="stylesheet"></style> -->
+    <link href="/styles.css" rel="stylesheet" />
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule=""
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+  ></script>
+  </head>
+  <>
+    <h1>Shivansh's component library</h1>
+    <p>
+      I ma shivnash mishra and I am making this component libarary so that my
+      future projects looks good
+    </p>
+    <hr />
+    <!-- Typography< -->
+    <h2>@ Typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is second biggest heading</h2>
+    <p>
+      This is how normal paragraph will look like and this is a block level
+      element
+    </p>
+    <p>This paragraph will have <strong>bold</strong> content</p>
+    <small>This is reletiviely smaller text</small>
+    <hr />
+    <!-- COntainers -->
+    <h2>@COntainers</h2>
+    <div class="container-center container">
+      <h3>Fluid container</h3>
+      <p>This is a fluid container this will go end of the page</p>
+    </div>
+    <div class="container">
+      <h3>Fixed container</h3>
+      <p>This container will go to only specified width</p>
+    </div>
+    <!-- Links< -->
+    <h2>@Links</h2>
+    <a href="/" class="link link-primary">Primary Link</a>
+    <a href="/" class="link link-secondary">Secondary Link</a>
+    <h3>UnOrdered list</h3>
+    <p>This list will not have bullets</p>
+    <ul class="list-nonbullet">
+      <li>Item One</li>
+      <li>Item two</li>
+      <li>Item three</li>
+    </ul>
+    <h3>UnOrdered Inline list</h3>
+    <ul class="list-nonbullet">
+      <li class="list-item-inline">Item One</li>
+      <li class="list-item-inline">Item two</li>
+      <li class="list-item-inline">Item three</li>
+    </ul>
+    <h3>Reversed ordered list</h3>
+    <ol reversed>
+      <li>Milk</li>
+      <li>eggs</li>
+      <li>Bread</li>
+    </ol>
+    <!-- nav -->
+    <h2>@nav</h2>
+    <nav class="navigation">
+      <div class="nav-brand">I am a brand</div>
+      <ul class="list-nonbullet">
+        <li class="list-item-inline">
+          <a class="link--undecorated link--active" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link--undecorated" href="/">Products</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link--undecorated" href="/">About</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- header -->
+    <h2>@header</h2>
+    <header class="hero">
+      <img class="hero-img" src="/images/hero.svg" />
+      <h1 class="hero-heading"><span>Shivansh</span> The Web Devloper</h1>
+    </header>
+    <hr />
+    <h2>@sections</h2>
+    <section class="section">
+      <div class="container-center">
+        <h3>White section</h3>
+        <p>This section will have white background</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem
+          sit nostrum necessitatibus eligendi non laborum laudantium, culpa
+          minus harum hic deleniti expedita a minima maxime dolores quod esse
+          dolore!
+        </p>
+      </div>
+    </section>
+    <section class="section ow">
+      <div class="container-center">
+        <h3>Grey section</h3>
+        <p>This section will have grey background</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+          perferendis at nisi nesciunt tempore voluptate excepturi praesentium
+          et nam laboriosam. Atque eligendi ullam natus velit eveniet quo
+          consectetur, earum ad?
+        </p>
+      </div>
+    </section>
+    <h2>@footer</h2>
+    <footer class="footer">
+      <div class="footer-heading">Small text inside footer</div>
+      <ul class="list-nonbullet">
+        <li class="list-item-inline">
+          <a class="footer-link link--undecorated" href="/">Link 1</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="footer-link link--undecorated" href="/">Link 1</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="footer-link link--undecorated" href="/">Link 1</a>
+        </li>
+      </ul>
+    </footer>
+    <!-- EDU -->
+    <div class="section-edu grid grid--3-cols margin-bottom-md">
+      <div class="edu">
+    
+        <div class="edu-content">
+          <div class="edu-tags">
+            <span class="tag tag--cbse">CBSE</span>
+          </div>
+          <p class="edu-title">High School</p>
+          <ul class="edu-attributes add-banner">
+            <li class="edu-attribute">
+              <ion-icon class="edu-icon" name="calendar-outline"></ion-icon>
+              <!-- <ion-icon class="edu-icon" name="timer-outline"></ion-icon> -->
+              <!-- <ion-icon class="edu-icon" name="flame-outline"></ion-icon> -->
+              <span><strong>May</strong> 2015</span>
+            </li>
+            <li class="edu-attribute">
+              <ion-icon class="edu-icon" name="school-outline"></ion-icon>
+              <!-- <ion-icon
+                class="edu-icon"
+                name="restaurant-outline"
+              ></ion-icon> -->
+              <span>St. Xavier's School Salempur 
+                <!-- <strong>74</strong> -->
+              </span>
+            </li>
+            <li class="edu-attribute">
+              <ion-icon class="edu-icon" name="ribbon-outline"></ion-icon>
+              <!-- <ion-icon class="edu-icon" name="star-outline"></ion-icon> -->
+              <span><strong>9.4</strong> CGPA</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      
+    </div>
+
+  </body>
+</html>

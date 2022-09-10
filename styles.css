@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+:root {
+  --primary-color: #7c3aed;
+  --primary-color-tint: #a375f2;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 1rem;
+}
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/** Links **/
+.link--undecorated {
+  text-decoration: none;
+  color: #fff;
+}
+.link {
+  /* box-sizing: border-box; */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: antiquewhite;
+  border-radius: 0.5rem;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
+}
+.link-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.link-secondary {
+  background-color: #fff;
+  border: 1px solid var(--primary-color);
+}
+/* lists */
+.list-nonbullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  /* padding-left: 2rem; */
+  padding: 0 0.5rem;
+}
+
+/* NAV */
+.navigation {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 1rem;
+}
+.navigation .list-nonbullet {
+  text-align: right;
+}
+.nav-brand {
+  font-weight: bold;
+  color: #fff;
+}
+.link--active {
+  font-weight: bold;
+}
+/* header */
+.section-hero {
+  height: 100vh;
+}
+.hero {
+  padding: 2rem 0;
+  text-align: center;
+}
+.hero-img {
+  display: block;
+  margin: auto;
+  width: 350px;
+}
+.hero-heading {
+  padding-top: 1rem;
+  font-size: 3rem;
+  color: var(--dark-gray);
+}
+.hero-heading span {
+  color: var(--primary-color);
+}
+.section {
+  padding: 2rem;
+}
+.ow {
+  background-color: var(--off-white);
+}
+/* footer */
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #fff;
+  /* border-bottom-right-radius: 1rem; */
+  border-top-right-radius: 1rem;
+}
+.footer ul {
+  padding-inline-start: 0;
+}
+.footer-heading {
+  font-weight: bold;
+  font-size: large;
+}
+/* edu */
+.container-edu {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+
+  /* margin-bottom: 9.6rem; */
+}
+
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.section-edu {
+  padding: 3rem 0;
+}
+
+.edu {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+  position: relative;
+}
+
+.edu:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.edu-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.edu-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag--cbse {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.tag--mmmut {
+  background-color: var(--primary-color-tint);
+  color: #fff;
+}
+
+.edu-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.edu-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.edu-attribute {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.edu-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: var(--primary-color);
+}
+
+.edu-img {
+  width: 100%;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.add-banner::after {
+  content: "civil";
+  position: absolute;
+  top: 7%;
+  right: -13%;
+
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffd43b;
+  padding: 0.3rem 5rem;
+  transform: rotate(45deg);
+}
