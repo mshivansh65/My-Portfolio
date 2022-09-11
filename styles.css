@@ -17,6 +17,8 @@ body {
 .container-center {
   max-width: 600px;
   margin: auto;
+  position: relative;
+  overflow: hidden;
 }
 
 /** Links **/
@@ -91,6 +93,7 @@ body {
 .section {
   padding: 2rem;
 }
+
 .ow {
   background-color: var(--off-white);
 }
@@ -232,6 +235,25 @@ body {
   font-weight: 700;
   color: #333;
   background-color: #ffd43b;
+  padding: 0.3rem 5rem;
+  transform: rotate(45deg);
+}
+.blog-h3 {
+  font-size: 1.6rem;
+  margin-block-start: 0.5em;
+  margin-block-end: 1em;
+}
+.add-banner-top::after {
+  content: "top";
+  position: absolute;
+  top: 13%;
+  right: -9%;
+
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--primary-color);
   padding: 0.3rem 5rem;
   transform: rotate(45deg);
 }
