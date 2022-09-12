@@ -238,11 +238,11 @@ body {
   padding: 0.3rem 5rem;
   transform: rotate(45deg);
 }
-.blog-h3 {
+/* .blog-h3 {
   font-size: 1.6rem;
   margin-block-start: 0.5em;
   margin-block-end: 1em;
-}
+} */
 .add-banner-top::after {
   content: "top";
   position: absolute;
