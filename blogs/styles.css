@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+:root {
+  --primary-color: #7c3aed;
+  --primary-color-tint: #a375f2;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 2rem;
+  background-color: var(--off-white);
+  color: #fff;
+}
+.link {
+  text-decoration: none;
+  border: 1px solid var(--primary-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.about-blog {
+  margin-left: 5rem;
+}
+.about-blog em {
+  /* background-color: var(--primary-color); */
+  color: var(--primary-color);
+}
+.section {
+  max-width: 50rem;
+  margin: auto;
+  padding: 3rem;
+}
+.blog-img {
+  padding: 0.5rem 0 0.5rem 0;
+  display: block;
+  width: 50vw;
+  margin: auto;
+}
+article {
+  line-height: 2rem;
+}
