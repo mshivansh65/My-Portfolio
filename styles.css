@@ -19,6 +19,7 @@ body {
   margin: auto;
   position: relative;
   overflow: hidden;
+  transition: all 0.4s;
 }
 
 /** Links **/
@@ -28,12 +29,13 @@ body {
 }
 .link {
   /* box-sizing: border-box; */
+  display: inline-block;
   text-decoration: none;
   padding: 0.5rem 1rem;
   background-color: antiquewhite;
   border-radius: 0.5rem;
-  /* margin-top: 1rem;
-  margin-bottom: 1rem; */
+  /* margin-top: 1rem; */
+  /* margin-bottom: 1rem; */
 }
 .link-primary {
   background-color: var(--primary-color);
@@ -93,7 +95,9 @@ body {
 .section {
   padding: 2rem;
 }
-
+.section-1 {
+  padding: 0.6rem;
+}
 .ow {
   background-color: var(--off-white);
 }
@@ -256,4 +260,7 @@ body {
   background-color: var(--primary-color);
   padding: 0.3rem 5rem;
   transform: rotate(45deg);
+}
+.hidden {
+  display: none;
 }
