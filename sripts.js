@@ -1,7 +1,7 @@
 console.log(`Hey`);
 const projDisEl = document.querySelectorAll(".project-discription");
 const sectionCentersEl = document.querySelectorAll(".container-center");
-console.log(projDisEl);
+// console.log(projDisEl);
 projDisEl.forEach((div) => {
   div.classList.add("hidden");
   div.closest(".section").classList.add("section-1");
@@ -10,7 +10,7 @@ projDisEl.forEach((div) => {
 
 sectionCentersEl.forEach((sectionCenterEl) =>
   sectionCenterEl.addEventListener("mouseenter", (e) => {
-    console.log(e);
+    // console.log(e);
 
     showProjectDetail(e.target);
   })
